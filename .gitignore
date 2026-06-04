@@ -1,0 +1,11 @@
+build/
+*.o
+*.out
+*.log
+*.avi
+*.mp4
+*.h264
+*yuv
+.vscode/
+.idea/
+.DS_Store
