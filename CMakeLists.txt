@@ -8,8 +8,10 @@ include_directories(include)
 
 add_executable(sender
 	src/main_sender.cpp
+	src/net/tcp_client.cpp
 )
 
 add_executable(receiver
 	src/main_receiver.cpp
+	src/net/tcp_server.cpp
 )
